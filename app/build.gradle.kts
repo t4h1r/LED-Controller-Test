@@ -3,8 +3,17 @@ plugins {
     id("org.jetbrains.kotlin.android")
 }
 
-android { namespace = "com.example.magiccarlight"; compileSdk = 36
-    defaultConfig { applicationId = "com.example.magiccarlight"; minSdk = 26; targetSdk = 36; versionCode = 1; versionName = "1.0" }
+android {
+    namespace = "com.example.magiccarlight"
+    compileSdk = 36
+
+    defaultConfig {
+        applicationId = "com.example.magiccarlight"
+        minSdk = 26
+        targetSdk = 36
+        versionCode = 1
+        versionName = "1.0"
+    }
 }
 
 dependencies {
